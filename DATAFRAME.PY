@@ -37,3 +37,11 @@ df2=df2.set_index("Name")
 
 df.loc[2:3,'Name':'Department']
 df.iloc[0:3,1:3]
+
+
+#to make a list as index unsing index() function
+new_index=['a','b','c','d','e','f','g','h']
+df_new=df
+df_new.index=new_index
+df_new.loc['a','Artist']
+df_new.loc['a':'d','Artist']
