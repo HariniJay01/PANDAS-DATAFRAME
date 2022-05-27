@@ -18,3 +18,22 @@ c
 # Retrieve the Marks column and assign it to a variable b as "series"
 b=df1['Marks']
 b
+#loc-row and column name
+#iloc-row and column indexes
+
+# Access the value on the first row and the first column
+
+df.iloc[0, 0]
+
+# Access the column using the name
+
+df.loc[0, 'Salary']
+
+# To make the name column as the index using set_index() and saving it to a new dataframe
+df2=df
+df2=df2.set_index("Name")
+
+#Slicing
+
+df.loc[2:3,'Name':'Department']
+df.iloc[0:3,1:3]
