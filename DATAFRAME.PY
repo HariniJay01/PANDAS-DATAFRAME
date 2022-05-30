@@ -93,7 +93,20 @@ min_value=a.min()
 u=np.array([1,0])
 v=np.array([2,1])
 z=np.add(u,v)   #------>arr([3,1]) 
+d=np.subtract(u,v)   #to subtract
+f=np.multiply(u,v)   #to multiply
+g=np.divide(u,v)   #to divide
+j=np.dot(u,v)      #to find DOT PRODUCT
 
+
+
+
+x = np.array([0, np.pi/2 , np.pi])   #array in radians
+y = np.sin(x)        #sine of the values
+
+#linspace
+np.linspace(-2, 2, num=5)
+np.linspace(5, 4, num=9)
 
 
 #PLOTTING GRAPH BETWEEN X AND Y
